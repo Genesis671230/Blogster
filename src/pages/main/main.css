@@ -1,0 +1,62 @@
+@media screen and (max-width: 660px) {
+    .dontshowOnMobile{
+        display:none;
+    }
+}
+@media screen and (max-width: 660px) {
+    .showOnMobile{
+        display:flex;
+    }
+}
+@media screen and (min-width: 660px) {
+    .showOnMobile{
+        display:none;
+    }
+}
+
+.showOnMobile{
+    background: rgb(4, 88, 19);
+    flex-direction: column;
+    padding: 20px 30px;
+    gap: 20px;
+}
+.spanMainText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.textMainDiv{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.frontPageInputEmail{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .frontPageInputEmail input {
+    outline: none;
+    padding: 14px;
+    font-size: 22px;
+    width: 100%;
+    border-radius:7px;
+    border:0.3px solid black
+  }
+  .frontPageJoinButton{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 45px;
+  }
+  .frontPageJoinButton button{
+  background-color:rgba(45, 206, 80, 0.868);
+    outline: none;
+    padding: 13px;
+    width: 100%;
+    font-size: 22px;
+    
+    border-radius:7px;
+    border:0.3px solid black
+  }
